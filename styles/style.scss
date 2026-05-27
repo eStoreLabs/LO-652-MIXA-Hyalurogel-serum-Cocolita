@@ -595,6 +595,8 @@ body {
 
     &__quote {
       margin-bottom: 32px;
+      max-width: 25%;
+      margin: 0 auto;
     }
 
     .swiper-button-next,
@@ -614,7 +616,7 @@ body {
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
-      bottom: -32px;
+      bottom: -38px;
     }
 
     .swiper-pagination-bullet {
@@ -888,6 +890,12 @@ body {
 
         &--1 {
           max-width: 800px;
+          margin-left: 82px;
+          margin-top: 89px;
+        }
+
+        &--2 {
+          margin-left: 112px;
         }
 
         &--3 {
@@ -954,6 +962,8 @@ body {
 
     .es-reviews {
       &__quote {
+        max-width: 100%;
+        margin: initial;
         padding-top: 56px;
         max-width: 440px;
         margin-bottom: 48px;
