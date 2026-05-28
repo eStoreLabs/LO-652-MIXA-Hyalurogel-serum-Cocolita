@@ -584,6 +584,10 @@ body {
       }
     }
 
+    &__bg {
+      @include img;
+    }
+
     &__title {
       @include text;
       padding: 16px;
@@ -975,7 +979,6 @@ body {
       }
 
       &__bg {
-        background: url("../images/photo-opinions.jpg") no-repeat;
         position: absolute;
         top: 0;
         right: 0;

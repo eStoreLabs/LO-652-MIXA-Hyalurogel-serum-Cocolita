@@ -558,6 +558,11 @@ body {
 #es-rc #es-rc-content .es-reviews__img--stars {
   margin-bottom: 16px;
 }
+#es-rc #es-rc-content .es-reviews__bg {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
 #es-rc #es-rc-content .es-reviews__title {
   margin: 0;
   padding: 0;
@@ -848,7 +853,6 @@ body {
     margin-top: 85px;
   }
   #es-rc #es-rc-content .es-reviews__bg {
-    background: url("../images/photo-opinions.jpg") no-repeat;
     position: absolute;
     top: 0;
     right: 0;
