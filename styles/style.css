@@ -300,7 +300,7 @@ body {
   margin-bottom: 32px;
 }
 #es-rc #es-rc-content .es-info__content {
-  background: url("../images/bg-info.png");
+  background: url("../images/bgInfo.png");
   background-size: cover;
   padding: 16px 0;
 }
