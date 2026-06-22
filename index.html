@@ -391,15 +391,15 @@
           loop: true,
           autoHeight: true,
           pagination: {
-            el: ".es-swiper-pagination",
+            el: "#es-rc #es-rc-content .es-swiper-pagination",
             clickable: true,
             renderBullet: function (index, className) {
               return '<span class="' + className + '">' + (index + 1) + "</span>";
             },
           },
           navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: "#es-rc #es-rc-content .swiper-button-next",
+            prevEl: "#es-rc #es-rc-content .swiper-button-prev",
           },
         });
       })();
